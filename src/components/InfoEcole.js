@@ -2,6 +2,9 @@ import React from 'react'
 
 export default function InfoEcole() {
   return (
-    <h1>InfoEcole</h1>
+    <div>
+    <h5>Cegep La Pocatière </h5>
+    <p> 140 4e Av Painchaud</p>
+    </div>
   )
 }

@@ -3,10 +3,13 @@ import React from 'react'
 export default function Menu() {
   return (
     <div>
-      <h1>Le menu</h1>
-      <a href="#accueil">Les formations</a><br/>
-      <a href="#a-propos">À propos</a><br/>
-      <a href="#contact">Contact</a><br/>
+      <h5>Le menu</h5>
+      
+      <ul>
+        <li><a href="#accueil">Les formations</a></li>
+        <li><a href="#a-propos">Les consultants</a></li>
+        <li><a href="#contact">Les conseillers</a></li>
+      </ul>
     </div>
   )
 }

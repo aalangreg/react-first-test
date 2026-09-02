@@ -2,8 +2,8 @@ import './App.css';
 import { Button } from 'react-bootstrap';
 import { Container, Row, Col } from 'react-bootstrap';
 import NavBar from './components/NavBar';
-import Menu from './components/Menu'; 
 import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -30,31 +30,24 @@ function App() {
         </Row>
 
         <Row>
-            <Col className="border border-dark p-2">
-              <NavBar />
-            </Col>   
+          <NavBar />
        </Row>
-        <Row>                   
-            <Col xs={8} className="border border-dark p-2">
-              <h1>Image</h1>
-            </Col>
-            <Col xs={4} className="border border-dark p-2">
-              <Menu />
-            </Col>
-        </Row>
+      
         <Row>
             <Col className="border border-dark p-2">
-              <h1>Contenu</h1>
+              <h3>Contenu</h3>
             </Col>   
         </Row>
+
         <Row>                   
             <Col xs={8} className="border border-dark p-2">
-              <h1>menu</h1>
+              <h3>menu</h3>
             </Col>
             <Col xs={4} className="border border-dark p-2">
               <Footer />
             </Col>
         </Row>
+        
       </Container>
     </div>
   );
