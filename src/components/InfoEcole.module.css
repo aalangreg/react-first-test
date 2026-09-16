@@ -1,0 +1,17 @@
+.divstyle {
+    text-align: right;
+}
+.h3style {
+    text-decoration: underline;
+}
+.p1{
+    color: blue;
+    background-color: yellow;
+}
+.p2{
+    text-transform: uppercase;
+}
+.image-200x200-ronde {
+    width: 200px;
+    height: 200px;
+}

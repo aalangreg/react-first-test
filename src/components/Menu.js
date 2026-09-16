@@ -3,8 +3,7 @@ import React from 'react'
 export default function Menu() {
   return (
     <div>
-      <h5>Le menu</h5>
-      
+      <h6>Le menu</h6>
       <ul>
         <li><a href="#accueil">Les formations</a></li>
         <li><a href="#a-propos">Les consultants</a></li>

@@ -7,12 +7,18 @@ export default function Footer() {
   return (
     <div>
         <Row>
+
+
             <Col xs={8} className="border border-dark p-2">
                 <MenuFooter />
             </Col>
+
+
             <Col xs={4} className="border border-dark p-2">
                 <InfoEcole />
             </Col>
+
+            
         </Row>
     </div>
   )

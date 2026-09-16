@@ -1,11 +1,16 @@
-import React from "react";
-import cegep from "../assets/cegep logo.png";
+import React from 'react';
+
+import cegep from '../assets/cegeplogo.png';
+
+import styles from './ImageCegep.module.css';
 
 export default function ImageCegep() {
-    return (
-        <div>
-            <img src={cegep} alt="Cegep La Pocatière"
-            width="50%" height="auto" />
-        </div>
-    )
+
+  return (
+    <img
+      src={cegep}
+      alt="Cégep de La Pocatière"
+      className={styles.logo}
+    />
+  );
 }
